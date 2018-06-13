@@ -6,7 +6,7 @@ const iterate = f => from => {
   }
   ask = from(listen);
   ask('next');
-  return () => {};
+  return ask;
 }
 
 module.exports = iterate;

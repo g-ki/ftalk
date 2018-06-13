@@ -2,6 +2,8 @@
 
 ## Usage
 
+`npm install ftalk`
+
 ```js
 const { interval, map, filter, pipe, iterate, take } = require('ftalk');
 
